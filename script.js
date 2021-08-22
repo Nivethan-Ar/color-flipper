@@ -11,6 +11,7 @@ const colorFlip = function () {
 	containerDiv.style.backgroundColor = randomColor;
 	colorText.textContent = randomColor;
 	colorText.style.color = randomColor;
+  pageHeadingText.style.color =randomColor;
 };
 
 changeBtn.addEventListener('click', colorFlip);
