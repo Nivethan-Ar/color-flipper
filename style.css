@@ -6,7 +6,7 @@
 }
 
 body {
-	overflow: hidden;
+	overflow-x: hidden;
 	font-family: 'Montserrat';
 }
 
@@ -14,7 +14,7 @@ nav {
 	background-color: white;
 }
 .nav-center {
-	height: 5rem;
+	height: 4rem;
 	font-size: 1.5rem;
 	display: flex;
 	justify-content: center;
@@ -33,7 +33,7 @@ a {
 .container {
 	display: flex;
 	flex-direction: column;
-	height: calc(100vh - 4.5rem);
+	height: calc(100vh - 3.5rem);
 	font-weight: bold;
 	justify-content: center;
 	align-items: center;
@@ -65,4 +65,27 @@ h2 {
 }
 .color {
 	-webkit-text-stroke: 0.5px white;
+}
+
+footer {
+	text-align: center;
+	background-color: #222;
+  padding: 3rem;
+  margin-bottom: 0;
+}
+
+.footer-link {
+	color: #11999e;
+	padding: 3rem;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover {
+	color: #eaf6f6;
+}
+footer p {
+	color: #eaf6f6;
+  padding-top: 3em;
+	font-size: 0.8rem;
+	font-family: monospace;
 }
